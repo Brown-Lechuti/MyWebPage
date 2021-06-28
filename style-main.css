@@ -29,3 +29,8 @@ h1, h3{
   .brown_word {
     color:brown;
   }
+  .flex-container{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
