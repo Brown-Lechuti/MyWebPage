@@ -1,8 +1,8 @@
 body{
     background-color:lightsteelblue;
-    font: arial;
-    font-size: 30px;    
-    color:grey;
+    font-family: tahoma;
+    font-size: 25px;    
+    color: gray;
     text-align: center;  
 }
 
@@ -15,14 +15,17 @@ body{
 
 .flex-container > div {
   background-color:transparent;
-  margin: 0px;
+  margin: 20px;
   padding: 10px;
 
 }
 .limit{
-    width: 600px;
+    width: 500px;
     word-wrap: break-word;
 }
 h1, h3{
     line-height: 20px; 
+  }
+  .brown_word {
+    color:brown;
   }
