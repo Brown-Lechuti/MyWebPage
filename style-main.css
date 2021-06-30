@@ -64,3 +64,18 @@ h1, h3{
   .brown_word {
     color:brown;
   }
+/*Side bar formatting*/
+.side-bar{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  background-color:transparent;
+
+}
+
+.side-bar a{
+  display:block; 
+
+  
+}
