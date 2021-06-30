@@ -1,13 +1,20 @@
+/**NB: The order of tags matters in CSS*/
 body{
     background-color:lightsteelblue;
     font-family: tahoma;
     font-size: 25px;    
     color: gray;
-    text-align: center;  
-}
+    text-align: center;
+    margin: 0;
 
+  /*Make web page fit all screen resolutions */
+  width:100%;
+  min-width:1000px;
+  height:auto;
+}
+/*Body contents formatting */
 .flex-container {
-  display: flex;
+  display: flex;/*Making dividers appear inline with each other*/
   background-color: white(30, 255, 98);
   justify-content: center;
   align-items: center;
@@ -19,18 +26,40 @@ body{
   padding: 10px;
 
 }
+
+/*Top navigation bar fromatting*/
+.top-navbar{
+  display:flex;
+  background-color: gray;
+  font-size: 15px;
+  overflow: hidden;
+}
+.top-navbar a{
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+.top-navbar a:hover
+{
+  color: black;
+  background-color:lightgray;
+}
+.top-navbar a.active{
+  color: white;
+  background-color:brown;
+}
+
+/*Restricting the size of the paragraph on the home page*/
 .limit{
     width: 500px;
     word-wrap: break-word;
 }
+
+/*Definig line spacing between heading 1 and 2*/
 h1, h3{
     line-height: 20px; 
   }
+
   .brown_word {
     color:brown;
   }
-  .flex-container{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-}
