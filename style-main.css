@@ -67,15 +67,19 @@ h1, h3{
 /*Side bar formatting*/
 .side-bar{
   list-style-type:none;
-  margin:0px;
-  margin-top:50px;
-  padding: 10;
   width: 50px;
-
+  float: right; 
 }
 
 .side-bar a{
   display:block; 
-  background-color:limegreen;
+  /*background-color:limegreen;*/
+  margin:5px;
+  padding: 10px;
   margin-left: 150px;
+}
+.side-bar a:hover{
+background-color: aqua;
+/*width: 40; For OnClick event
+height: 40px;*/
 }
