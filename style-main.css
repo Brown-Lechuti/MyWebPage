@@ -67,15 +67,15 @@ h1, h3{
 /*Side bar formatting*/
 .side-bar{
   list-style-type:none;
-  margin: 0;
-  padding: 0;
+  margin:0px;
+  margin-top:50px;
+  padding: 10;
   width: 50px;
-  background-color:transparent;
 
 }
 
 .side-bar a{
   display:block; 
-
-  
+  background-color:limegreen;
+  margin-left: 150px;
 }
