@@ -8,7 +8,7 @@ function resetName(name) {
 }
 function changePic(imgTag)
 {
-    imgTag.src = "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/119450599_736550226896480_5868398601336072216_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_eui2=AeEJWTpwfG-DjlozU3pWz7Qe0W1atdzJItLRbVq13Mki0g7KGPOQlnyyH7DdiERbkr1xjCerpTzNHr5Fwfb8r0-X&_nc_ohc=WUuuw3uPl2EAX8G5a_4&tn=Kf5aBWCEw3psxunu&_nc_ht=scontent-jnb1-1.xx&oh=a24162d9b2f7e95c3b28bc2e3a76330e&oe=60E3BFCE";
+    imgTag.src = "https://i.pinimg.com/564x/c3/3f/a3/c33fa36c52fc54a8ec748d091356184d.jpg";
 }
 function resetPic(imgTag)
 {
