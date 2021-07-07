@@ -68,9 +68,6 @@ h1, h3{
     line-height: 20px; 
   }
 
-  .brown_word {
-    color:brown;
-  }
 /*Side bar formatting*/
 .side-bar{
   list-style-type:none;

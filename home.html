@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.png" type="image/png"><!--my favicon BL-->
+    <link rel="icon" href="https://brownlechuti.w3spaces.com/favicon.png?bypass-cache=1625597925" type="image/png"><!--my favicon BL-->
     <title >Brown Lechuti</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script-main.js"></script>
     <link rel="stylesheet" href="style-main.css">
     
@@ -23,7 +23,7 @@
     <main><!--Main contains ONLY the content that is unique to the document-->
         <div class="flex-container" >
             <div class= "limit">
-                <h1>Hi, I am <span class = "brown_word" onmouseover="changeName(this)" onmouseout="resetName(this)">Brown</span></h1> 
+                <h1>Hi, I am <span id="brown_word" style="color: brown">Brown</span></h1> 
                     <h3>Software Developer</h3>
                     <p>My name is Brown Botshelo Lechuti from Jouberton, City of Matlosana.
                             I am 21 years old and currently studying Information Technology majoring in Software development 
@@ -32,8 +32,8 @@
                     </p>
             </div>
             <div>
-                <img src="https://brownlechuti.w3spaces.com/profile.png?bypass-cache=1625588081"
-                alt="Brown's profile pic" width=300 height=435 onmouseover="changePic(this)" onmouseout="resetPic(this)">
+                <img  id = "profile" src="https://brownlechuti.w3spaces.com/profile.png?bypass-cache=1625588081"
+                alt="profile pic" width="300" height="435">
             </div>
 
             <div class="side-bar"> 
