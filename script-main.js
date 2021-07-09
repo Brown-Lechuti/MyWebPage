@@ -3,7 +3,7 @@
  $(document).ready(function(){
         alert("Welcome");
         $("#profile").hover(function(){
-            (this).src ="https://brownlechuti.w3spaces.com/motivation.jpg?bypass-cache=1625169654";
+            (this).src ="data/motivation.png";
         },
         function(){
             (this).src = "https://brownlechuti.w3spaces.com/profile.png?bypass-cache=1625588081";
