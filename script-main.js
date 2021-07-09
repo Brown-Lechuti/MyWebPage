@@ -1,5 +1,5 @@
 
- //JQuery funcion
+ //JQuery 
  $(document).ready(function(){
         alert("Welcome");
         $("#profile").hover(function(){
@@ -15,22 +15,15 @@
         function(){
             (this).innerHTML = "Brown";
         });
+        $("#btnContact").hover(function(){
+          $("#contactDropdown").show(200);
+
+        },
+        function(){ 
+            $("body").click(function(){
+                $("#contactDropdown").hide(400);
+            });
+        });
         
     });
-/*
-function changeName(name) {
-    name.innerHTML= "Botshelo";
-}
-function resetName(name) {
-    name.innerHTML = "Brown";
-}
 
-
-function changePic(imgTag)
-{
-    imgTag.src = "https://brownlechuti.w3spaces.com/motivation.jpg?bypass-cache=1625169654";
-}
-function resetPic(imgTag)
-{
-    imgTag.src = "https://brownlechuti.w3spaces.com/profile.png?bypass-cache=1625588081";
-}*/
