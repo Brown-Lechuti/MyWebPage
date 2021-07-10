@@ -15,14 +15,13 @@ body{
 /*Body contents formatting */
 .flex-container {
   display: flex;/*Making dividers appear inline with each other*/
-  background-color: white(30, 255, 98);
   justify-content: center;
   align-items: center;
 
 }
 
 .flex-container > div {
-  background-color:transparent;
+ /* background-color:transparent;*/
   padding: 10px;
 
 }
@@ -38,7 +37,7 @@ body{
   padding: 10px;
   text-align: center;
   color:White;
-  font-weight: bold;
+  font-weight: bold; 
 }
 .top-navbar a:hover,.dropdown:hover,.dropdown:hover .btnContact, .btnContact:focus{
   color: black;
@@ -105,27 +104,25 @@ h1, h3{
     line-height: 20px; 
   }
 
-/*Side bar formatting*/
+/*Social media icons styling*/
 .side-bar{
   list-style-type:none;
-  width: 100px;
+  width: 75px;
   float: right; 
-}
-
-.side-bar a{
-  display:block; 
-  /*background-color:limegreen;*/
+  background-color:gray;
   margin:5px;
   padding: 10px;
 }
-.side-bar a:hover{
-  background-color: lightgray;
-  /*width: 40; For OnClick event
-  height: 40px;*/
+
+.side-bar a{ 
+  width: 60px;
+  padding: 10px;
+  margin: 5px;
 }
-.side-bar a{
-  background-color:gray;
-  }
+
+.fa-linkedin:hover,.fa-twitter:hover,.fa-facebook:hover{
+    color: black;
+}
 
 hr{
   display:flex;

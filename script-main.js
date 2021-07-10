@@ -15,6 +15,7 @@
         function(){
             (this).innerHTML = "Brown";
         });
+
         $("#btnContact").hover(function(){
           $("#contactDropdown").show(200);
 
