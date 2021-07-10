@@ -1,7 +1,7 @@
 
  //JQuery 
  $(document).ready(function(){
-        alert("Welcome");
+        /*alert("Welcome");*/
         $("#profile").hover(function(){
             (this).src ="data/motivation.png";
         },
