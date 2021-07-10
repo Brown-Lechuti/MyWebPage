@@ -17,12 +17,12 @@
         });
 
         $("#btnContact").hover(function(){
-          $("#contactDropdown").show(200);
+          $("#contactDropdown").slideDown(300);
 
         },
         function(){ 
             $("body").click(function(){
-                $("#contactDropdown").hide(400);
+                $("#contactDropdown").slideUp(400);
             });
         });
         
