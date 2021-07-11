@@ -16,7 +16,7 @@ body{
 .flex-container {
   display: flex;/*Making dividers appear inline with each other*/
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 
 }
 
@@ -136,6 +136,12 @@ footer{
   font-size: 15px;
   margin-bottom: 10px;
   color: brown;
+
+ /* background-image:url("data/bg.png");
+  background-position: center;
+  background-repeat:repeat;
+  background-size:contain;
+  opacity: 0.5;*/
 }
 
 .footer a{
