@@ -148,3 +148,6 @@ footer{
   text-decoration: none;
   color: inherit;
 }
+.footer a:hover{
+  text-decoration: underline;
+}
