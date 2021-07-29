@@ -18,11 +18,13 @@
 
         $("#btnContact").hover(function(){
           $("#contactDropdown").slideDown(300);
+            $("#btnarr").removeClass("fa fa-caret-down").addClass("fa fa-caret-up");
 
         },
         function(){ 
             $("body").click(function(){
-                $("#contactDropdown").slideUp(400);
+                $("#contactDropdown").slideUp(100);
+                $("#btnarr").removeClass("fa fa-caret-up").addClass("fa fa-caret-down");
             });
         });
         
