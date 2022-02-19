@@ -1,6 +1,6 @@
 # Author: Brown Lechuti
-#MyWebPage
+# MyWebPage
 
 #Description
-#Praticing some web development by building an HTML5,CSS and JS personal website
+#The purpose of the project is to for me to learn some basic web development skills by building an HTML5,CSS,JS personal website
 #The web page is hosted at https://brownlechuti.w3spaces.com/
