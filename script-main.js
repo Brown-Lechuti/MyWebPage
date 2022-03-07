@@ -17,16 +17,33 @@
         });
 
         $("#btnContact").hover(function(){
+          $("#btnarr").removeClass("fa fa-carent-down").addClass("fa fa-caret-up");
           $("#contactDropdown").slideDown(300);
-            $("#btnarr").removeClass("fa fa-caret-down").addClass("fa fa-caret-up");
 
         },
         function(){ 
             $("body").click(function(){
-                $("#contactDropdown").slideUp(100);
                 $("#btnarr").removeClass("fa fa-caret-up").addClass("fa fa-caret-down");
+                $("#contactDropdown").slideUp(100);
             });
         });
         
     });
 
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}   
